@@ -1,0 +1,13 @@
+{
+    "include" : ["src"],
+    "compilerOptions":{
+        "outDir":"build",
+        "rootDir": "src",
+        "target":"ES6", 
+        "lib":["ES6","DOM"], //API is ES7 // where it is going to running - browser
+        "strict":true,
+        "esModuleInterop":true,
+        "module":"CommonJS",
+        "types": ["node"]
+    }
+}
